@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Project1</title>
 <meta name="generator" content="NSB/AppStudio 3.1.7.1$hmqw" />
-<meta name="date" content="2013-09-15 23:21:24.573736" />
+<meta name="date" content="2013-09-15 23:40:55.829916" />
 <meta name="version" content="1.0.0" />
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=0.6667, user-scalable=no" />
 <meta name="apple-mobile-web-app-capable" content="YES" />
@@ -20,6 +20,7 @@
 <script src="nsb/jquery.js"></script>
 <script src="nsb/jquery.mobile.js"></script>
 <link href="nsb/jquery.mobile.css" rel="stylesheet">
+<script src="nsb/complexfunctions.js"></script>
 
 
 <script>var addToHomeConfig = {returningVisitor: false, expire: 720}</script>
@@ -28,22 +29,26 @@
 <script src='nsb/jquery.js'></script>
 
 <style type="text/css">
-#Button2 {position:absolute; left:10px; right:auto; top:209px; bottom:auto; height:153px; width:156px}
-#Button2Copy {position:absolute; left:193px; right:auto; top:19px; bottom:auto; height:151px; width:156px}
-#Button2Copy1 {position:absolute; left:8px; right:auto; top:19px; bottom:auto; height:151px; width:156px}
-#Button2Copy2 {position:absolute; left:194px; right:auto; top:208px; bottom:auto; height:153px; width:156px}
-#Image1 {position:absolute; left:62px; right:auto; top:82px; bottom:auto; height:44px; width:45px}
-#Image1Copy {position:absolute; left:253px; right:auto; top:79px; bottom:auto; height:44px; width:44px}
-#Image1Copy1 {position:absolute; left:70px; right:auto; top:279px; bottom:auto; height:44px; width:45px}
-#Image1Copy2 {position:absolute; left:252px; right:auto; top:275px; bottom:auto; height:44px; width:45px}
-#Button2Copy3 {position:absolute; left:9px; right:auto; top:403px; bottom:auto; height:153px; width:156px}
+#Button2 {position:absolute; left:10px; right:auto; top:243px; bottom:auto; height:153px; width:156px}
+#Button2Copy {position:absolute; left:193px; right:auto; top:53px; bottom:auto; height:151px; width:156px}
+#Button2Copy1 {position:absolute; left:8px; right:auto; top:53px; bottom:auto; height:151px; width:156px}
+#Button2Copy2 {position:absolute; left:194px; right:auto; top:242px; bottom:auto; height:153px; width:156px}
+#Image1 {position:absolute; left:62px; right:auto; top:116px; bottom:auto; height:44px; width:45px}
+#Image1Copy {position:absolute; left:253px; right:auto; top:113px; bottom:auto; height:44px; width:44px}
+#Image1Copy1 {position:absolute; left:70px; right:auto; top:313px; bottom:auto; height:44px; width:45px}
+#Image1Copy2 {position:absolute; left:252px; right:auto; top:309px; bottom:auto; height:44px; width:45px}
+#Button2Copy3 {position:absolute; left:9px; right:auto; top:430px; bottom:auto; height:153px; width:156px}
+#HeaderBar1 {position: absolute; width:100%; height:40px; left:0px; top:0px;}
+#Button2Copy3Copy {position:absolute; left:194px; right:auto; top:431px; bottom:auto; height:153px; width:156px}
+#Image1Copy1Copy {position:absolute; left:66px; right:auto; top:489px; bottom:auto; height:44px; width:45px}
+#Image1Copy1CopyCopy {position:absolute; left:251px; right:auto; top:491px; bottom:auto; height:44px; width:45px}
 #Button3 {position:absolute; left:129px; right:auto; top:512px; bottom:auto; height:29px; width:100px}
 body * {font-family:helvetica}
 </style>
 </head>
 <body style="margin:0px;background-image:url('nsb/images/backgroundStripes.png');">
 <script>if (typeof NSB_FastClick=='undefined') window.addEventListener('load', function() {new FastClick(document.body)}, false)</script>
-<div data-role="page" id="Page_Project11" data-theme="c" style="background-image:url('nsb/images/backgroundStripes.png')">
+<div data-role="page" id="Page_Bartender" data-theme="c" style="background-image:url('nsb/images/backgroundStripes.png')">
 <form id="Form1" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
 <div id="Button2" data-role='button' data-inline=true data-theme=b data-icon=false data-iconpos=bottom data-mini=false class=" " style="margin:0px; overflow:visible; font-size:12px; font-family:helvetica; font-style:normal; font-weight:bold; color:; background-color:; font-family:arial;color:white;font-size:10px">Food</div>
 <div id="Button2Copy" data-role='button' data-inline=true data-theme=b data-icon=false data-iconpos=bottom data-mini=false class=" " style="margin:0px; overflow:visible; font-size:12px; font-family:helvetica; font-style:normal; font-weight:bold; color:; background-color:; font-family:arial;color:white;font-size:10px">Tabs</div>
@@ -53,7 +58,11 @@ body * {font-family:helvetica}
 <div id="Image1Copy" ><img src="images/1379273990_Clipboard.png"  height=100% width=100% name="Image1Copy_img" style="" usemap="Image1Copy_map"/></div>
 <div id="Image1Copy1" ><img src="images/1379304663_checkout.png"  height=100% width=100% name="Image1Copy1_img" style="" usemap="Image1Copy1_map"/></div>
 <div id="Image1Copy2" ><img src="images/1379274036_Jack_Daniels_New.png"  height=100% width=100% name="Image1Copy2_img" style="" usemap="Image1Copy2_map"/></div>
-<div id="Button2Copy3" data-role='button' data-inline=true data-theme=b data-icon=false data-iconpos=bottom data-mini=false class=" " style="margin:0px; overflow:visible; font-size:12px; font-family:helvetica; font-style:normal; font-weight:bold; color:; background-color:; font-family:arial;color:white;font-size:10px">Food</div>
+<div id="Button2Copy3" data-role='button' data-inline=true data-theme=b data-icon=false data-iconpos=bottom data-mini=false class=" " style="margin:0px; overflow:visible; font-size:12px; font-family:helvetica; font-style:normal; font-weight:bold; color:; background-color:; font-family:arial;color:white;font-size:10px">Setup</div>
+<script>HeaderBar_jqm("HeaderBar1", "Bartender", "", "false", "", "false", " data-theme=b style='' class=' ' ")</script>
+<div id="Button2Copy3Copy" data-role='button' data-inline=true data-theme=b data-icon=false data-iconpos=bottom data-mini=false class=" " style="margin:0px; overflow:visible; font-size:12px; font-family:helvetica; font-style:normal; font-weight:bold; color:; background-color:; font-family:arial;color:white;font-size:10px">Extras</div>
+<div id="Image1Copy1Copy" ><img src="images/1379274189_gear_64.png"  height=100% width=100% name="Image1Copy1Copy_img" style="" usemap="Image1Copy1Copy_map"/></div>
+<div id="Image1Copy1CopyCopy" ><img src="images/1379274121_book.png"  height=100% width=100% name="Image1Copy1CopyCopy_img" style="" usemap="Image1Copy1CopyCopy_map"/></div>
 </form>
 <form id="Form2" action="" method="GET" onsubmit="return false;" style="display:none; height:100%; position:absolute; top:0px; left:0px; width:100%; ">
 <div id="Button3" data-role='button' data-inline=true data-theme=c data-icon=false data-iconpos=none data-mini=true class=" " style="margin:0px; overflow:visible; font-size:12px; font-family:helvetica; font-style:normal; font-weight:bold; color:; background-color:; ">Back</div>
@@ -89,6 +98,11 @@ window.addEventListener('load', function() {
   NSB.addProperties(Image1Copy2);
   NSB_addDisableProperty(Button2Copy3);
   NSB.addProperties(Button2Copy3);
+NSB.addProperties(HeaderBar1);
+  NSB_addDisableProperty(Button2Copy3Copy);
+  NSB.addProperties(Button2Copy3Copy);
+  NSB.addProperties(Image1Copy1Copy);
+  NSB.addProperties(Image1Copy1CopyCopy);
   Form1.style.display = 'none';
 }, false);
 if(!''){
